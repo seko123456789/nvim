@@ -77,7 +77,11 @@ return {
         })
 
         vim.diagnostic.config({
+            virtual_text = true, -- Disable virtual text
+            signs = false, -- Keep signs (icons in the gutter)
             update_in_insert = true,
+            underline = true,
+            severity_sort = true,
             float = {
                 focusable = false,
                 style = "minimal",
