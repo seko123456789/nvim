@@ -13,7 +13,7 @@ vim.g.netrw_winsize = 25
 vim.opt.guicursor = ""
 vim.opt.termguicolors = true
 vim.opt.scrolloff = 8
-vim.opt.signcolumn = "no"
+vim.opt.signcolumn = "yes"
 
 vim.keymap.set('n', '<leader>h', ':nohlsearch<CR>')
 vim.keymap.set('n', '<leader>e', vim.cmd.Ex)
